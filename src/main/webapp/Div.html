@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	nav{
+			height: 80px;
+			width: 100vw;
+			background-color: black;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			
+			button{
+				height: 30px;
+				width: 100px;
+				
+			}
+			}
+			
+			#box{
+				height: 400px;
+				width: 400px;
+				background-color: rgb(255, 128, 192);
+				margin: 60px auto;
+				
+				border-radius: 10px;
+				box-shadow: 1px 1px 1px 2px black;
+			}
+			button{
+					height: 30px;
+					width: 100px;
+					border-radius: 5px;
+					cursor: pointer;			
+				}
+				
+				
+			label{
+				margin-right: 140px;
+			}
+			
+			input{
+				height: 30px;
+				width: 200px;
+				border-radius: 5px;
+				
+			}
+			h1{
+				padding-top: 56px;
+			}
+
+			
+				
+</style>
+</head>
+<body>
+	<nav>
+		  <a href="Add.html"> <button>Add</button>   </a>
+		  <a href="Mul.html"> <button>Mul</button>   </a>	
+		  <a href="sub.html"> <button>Sub</button>   </a>	
+		  <a href="Div.html"> <button>Div</button>   </a>	
+			
+			
+		</nav>
+		<div id="box" align="center">
+						<h1>DIVISION</h1>
+						<br><br>
+				<form action="output" method="post">
+					<label>Number1</label>
+					<input type="number" name ="num1"> <br>
+					<br>
+					<label>Number2</label>
+					<input type="number" name ="num2"> <br>
+					<br>
+					<input type="hidden" name ="name" value="div"> <br>
+					<button>Div</button>
+					
+				</form>
+					
+			</div>
+
+</body>
+</html>
